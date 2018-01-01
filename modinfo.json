@@ -1,37 +1,47 @@
 {
     "context": "client",
-    "identifier": "com.pa.sonicblue22.client.maps",
+    "identifier": "com.pa.sonicblue22.maps",
     "display_name": "SonicBlue22's Map Pack",
-	"description": "A variety of maps made for balance.",
-	"author": "SonicBlue22",
-	"version": "1.0",
-	"build": "105067",
-	"date": "2016-08-20",
-	"signature": "none",
-	"forum": "https://forums.uberent.com/threads/sonicblue22s-map-pack.72538/",
-	"enabled": true,
-	"category": 
-	[
-		"maps"
-	],
-	"icon": "https://steamuserimages-a.akamaihd.net/ugc/865108177652949616/DA3A08B73A453A7F43AB2C8FE0E668E08AC4DA24/",
-	"identifier": "com.pa.sonicblue22.maps",
-	"dependencies": 
-	[
-		"com.pa.conundrum.cShareSystems"
-	],
-	"scenes": 
-	{
-        "load_planet": 
-		[
+    "description": "A variety of maps made for balance. [Version 2.0] minor balance changes on Rice, and adds three new systems",
+    "author": "SonicBlue22",
+    "version": "2.0",
+    "build": "105067",
+    "date": "2018-12-31",
+    "signature": "none",
+    "forum": "https://forums.uberent.com/threads/sonicblue22s-map-pack.72538/",
+    "enabled": true,
+    "icon": "https://i.imgur.com/az0i3PV.jpg",
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ],
+    "scenes": {
+        "load_planet": [
             "coui://ui/mods/sonicblue22/maplist.js"
         ]
     },
-	"framework": false,
+    "framework": false,
     "available": true,
     "titansOnly": false,
     "classicOnly": false,
     "classic": false,
     "titans": false,
-    "conflicts": {}
+    "conflicts": {},
+    "url": "https://github.com/SonicBlue22/com.pa.sonicblue22.maps/archive/master.zip",
+    "download": "https://cdn.secure.palobby.com/community-mods/downloads/com.pa.sonicblue22.maps.zip?token=BAA4HCRd5Qqq7mP2cKFALw&expire=1506128311",
+    "unitList": false,
+    "fileSystem": false,
+    "searchable": [
+        "sonicblue",
+        "map",
+        "pack",
+        "maps",
+        "sonicblue22"
+    ],
+    "sort": "sonicblue22's map pack",
+    "authors": [
+        "SonicBlue22"
+    ],
+    "priority": 100,
+    "timestamp": 1471651200000,
+    "companions": []
 }
