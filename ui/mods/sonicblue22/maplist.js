@@ -11,5 +11,8 @@ cShareSystems.load_pas("SonicBlue22", [
 "coui://ui/mods/SonicBlue22/systems/rings.pas",
 "coui://ui/mods/SonicBlue22/systems/sula.pas",
 "coui://ui/mods/SonicBlue22/systems/thc.pas",
-"coui://ui/mods/SonicBlue22/systems/wreck.pas"
+"coui://ui/mods/SonicBlue22/systems/wreck.pas",
+"coui://ui/mods/SonicBlue22/systems/sector_17.pas",
+"coui://ui/mods/SonicBlue22/systems/cryos.pas",
+"coui://ui/mods/SonicBlue22/systems/quator.pas"
 ]);
