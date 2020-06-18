@@ -16,7 +16,7 @@
             "max_spawn_delay": 0,
             "planet": {
                 "seed": 1673672832,
-                "radius": 50,
+                "radius": 100,
                 "heightRange": 0,
                 "waterHeight": 0,
                 "waterDepth": 100,
