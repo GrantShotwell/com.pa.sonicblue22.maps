@@ -2,7 +2,7 @@
     "context": "client",
     "identifier": "com.pa.sonicblue22.maps",
     "display_name": "SonicBlue22's Map Pack",
-    "description": "A variety of maps made for asymetrical balance. [Version 2.0] added four new systems and balanced some maps [2.0.2] fixed the maplist.js for sure this time",
+    "description": "A variety of maps made for asymetrical balance. [Version 2.0.3] Changed 'Ring' to size 50.",
     "author": "SonicBlue22",
     "version": "2.0",
     "build": "105067",
