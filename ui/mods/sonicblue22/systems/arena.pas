@@ -1,6 +1,6 @@
 {
     "name": "Arena",
-	"players": [
+    "players": [
         2,
         8
     ],
@@ -35,18 +35,20 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 1,
-                "landingZoneSize": 100
+                "landingZoneSize": 100,
+                "heightAdjustments": []
             },
             "planetCSG": [
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_ruin_01.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_ruin_01.json",
+                    "height": 682.0407104492188,
+                    "op": "BO_Add",
+                    "position": [
+                        561.9562377929688,
+                        211.65977478027344,
+                        323.39581298828125
+                    ],
                     "transform": [
                         -0.5271109938621521,
                         -0.20805661380290985,
@@ -61,18 +63,17 @@
                         0.47415924072265625,
                         323.3959045410156
                     ],
-                    "op": "BO_Add",
-                    "rotation": 2.454582691192627,
                     "scale": [
                         1,
                         1,
                         1
                     ],
-                    "height": 682.0407104492188,
-                    "position": [
-                        561.9562377929688,
-                        211.65977478027344,
-                        323.39581298828125
+                    "rotation": 2.454582691192627,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -82,20 +83,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": false,
+                    "flooded": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 687.0702514648438,
+                    "op": "BO_Subtract",
+                    "position": [
+                        403.828369140625,
+                        310.1105651855469,
+                        461.3237609863281
+                    ],
                     "transform": [
                         -0.7552464604377747,
                         0.33650147914886475,
@@ -110,18 +112,17 @@
                         0.6861918568611145,
                         461.32379150390625
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.3632822036743164,
                     "scale": [
                         1.0219764709472656,
                         1.0219764709472656,
                         1.0219764709472656
                     ],
-                    "height": 687.0702514648438,
-                    "position": [
-                        403.828369140625,
-                        310.1105651855469,
-                        461.3237609863281
+                    "rotation": 3.3632822036743164,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -131,20 +132,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 697.5519409179688,
+                    "op": "BO_Subtract",
+                    "position": [
+                        322.35723876953125,
+                        609.5731201171875,
+                        -105.28582763671875
+                    ],
                     "transform": [
                         1.0739290714263916,
                         -0.03777340054512024,
@@ -159,18 +161,17 @@
                         -0.182896226644516,
                         -105.2857894897461
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 5.752253532409668,
                     "scale": [
                         1.2117458581924438,
                         1.2117458581924438,
                         1.2117458581924438
                     ],
-                    "height": 697.5519409179688,
-                    "position": [
-                        322.35723876953125,
-                        609.5731201171875,
-                        -105.28582763671875
+                    "rotation": 5.752253532409668,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -180,20 +181,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 697.8702392578125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -232.41233825683594,
+                        -481.0300598144531,
+                        -449.0182800292969
+                    ],
                     "transform": [
                         -0.7891010046005249,
                         0.614115297794342,
@@ -208,18 +210,17 @@
                         -0.6823022961616516,
                         -449.0183410644531
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.0514488220214844,
                     "scale": [
                         1.06044340133667,
                         1.06044340133667,
                         1.06044340133667
                     ],
-                    "height": 697.8702392578125,
-                    "position": [
-                        -232.41233825683594,
-                        -481.0300598144531,
-                        -449.0182800292969
+                    "rotation": 3.0514488220214844,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -229,20 +230,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 697.3695068359375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        351.98126220703125,
+                        36.514259338378906,
+                        600.9160766601562
+                    ],
                     "transform": [
                         -0.38264283537864685,
                         0.7119389176368713,
@@ -257,18 +259,17 @@
                         0.8067647218704224,
                         600.9160766601562
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.202775478363037,
                     "scale": [
                         0.9362590312957764,
                         0.9362590312957764,
                         0.9362590312957764
                     ],
-                    "height": 697.3695068359375,
-                    "position": [
-                        351.98126220703125,
-                        36.514259338378906,
-                        600.9160766601562
+                    "rotation": 4.202775478363037,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -278,20 +279,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 699.5993041992188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -516.3920288085938,
+                        -200.0661163330078,
+                        427.4952087402344
+                    ],
                     "transform": [
                         0.4705743193626404,
                         0.31374189257621765,
@@ -306,18 +308,17 @@
                         0.5122525691986084,
                         427.4952087402344
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 5.49970006942749,
                     "scale": [
                         0.8383054137229919,
                         0.8383054137229919,
                         0.8383054137229919
                     ],
-                    "height": 699.5993041992188,
-                    "position": [
-                        -516.3920288085938,
-                        -200.0661163330078,
-                        427.4952087402344
+                    "rotation": 5.49970006942749,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -327,20 +328,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 690.9869995117188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        403.4179382324219,
+                        558.3261108398438,
+                        54.670806884765625
+                    ],
                     "transform": [
                         -0.5067028403282166,
                         -0.197904571890831,
@@ -355,18 +357,17 @@
                         0.053012434393167496,
                         54.670753479003906
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.2006452083587646,
                     "scale": [
                         0.6700273752212524,
                         0.6700273752212524,
                         0.6700273752212524
                     ],
-                    "height": 690.9869995117188,
-                    "position": [
-                        403.4179382324219,
-                        558.3261108398438,
-                        54.670806884765625
+                    "rotation": 2.2006452083587646,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -376,20 +377,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.1458740234375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        10.778398513793945,
+                        450.24859619140625,
+                        543.8771362304688
+                    ],
                     "transform": [
                         -0.5258134603500366,
                         -0.7025119066238403,
@@ -404,18 +406,17 @@
                         0.675931990146637,
                         543.876953125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.2078230381011963,
                     "scale": [
                         0.8776003122329712,
                         0.8776003122329712,
                         0.8776003122329712
                     ],
-                    "height": 706.1458740234375,
-                    "position": [
-                        10.778398513793945,
-                        450.24859619140625,
-                        543.8771362304688
+                    "rotation": 2.2078230381011963,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -425,20 +426,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 704.6043701171875,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -332.5692443847656,
+                        62.65702438354492,
+                        -618.01220703125
+                    ],
                     "transform": [
                         -0.2790292203426361,
                         0.8826056718826294,
@@ -453,18 +455,17 @@
                         -0.9209408760070801,
                         -618.01220703125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 0.8667905330657959,
                     "scale": [
                         1.0499776601791382,
                         1.0499776601791382,
                         1.0499776601791382
                     ],
-                    "height": 704.6043701171875,
-                    "position": [
-                        -332.5692443847656,
-                        62.65702438354492,
-                        -618.01220703125
+                    "rotation": 0.8667905330657959,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -474,20 +475,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 701.5643310546875,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -13.801053047180176,
+                        -681.7451782226562,
+                        -165.0015869140625
+                    ],
                     "transform": [
                         -0.5787949562072754,
                         -0.6785975694656372,
@@ -502,18 +504,17 @@
                         -0.20980891585350037,
                         -165.00143432617188
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.251985788345337,
                     "scale": [
                         0.892079770565033,
                         0.892079770565033,
                         0.892079770565033
                     ],
-                    "height": 701.5643310546875,
-                    "position": [
-                        -13.801053047180176,
-                        -681.7451782226562,
-                        -165.0015869140625
+                    "rotation": 2.251985788345337,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -523,20 +524,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.8603515625,
+                    "op": "BO_Subtract",
+                    "position": [
+                        200.19464111328125,
+                        -570.2318115234375,
+                        -366.6188049316406
+                    ],
                     "transform": [
                         -1.0002517700195312,
                         -0.6159467101097107,
@@ -551,18 +553,17 @@
                         -0.6352726221084595,
                         -366.618896484375
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.1073904037475586,
                     "scale": [
                         1.2248387336730957,
                         1.2248387336730957,
                         1.2248387336730957
                     ],
-                    "height": 706.8603515625,
-                    "position": [
-                        200.19464111328125,
-                        -570.2318115234375,
-                        -366.6188049316406
+                    "rotation": 3.1073904037475586,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -572,20 +573,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.4004516601562,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -106.62138366699219,
+                        -326.4463195800781,
+                        617.3055419921875
+                    ],
                     "transform": [
                         -1.1522465944290161,
                         0.6196034550666809,
@@ -600,18 +602,17 @@
                         1.1565172672271729,
                         617.3056030273438
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.5973072052001953,
                     "scale": [
                         1.3234357833862305,
                         1.3234357833862305,
                         1.3234357833862305
                     ],
-                    "height": 706.4004516601562,
-                    "position": [
-                        -106.62138366699219,
-                        -326.4463195800781,
-                        617.3055419921875
+                    "rotation": 3.5973072052001953,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -621,20 +622,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 691.929443359375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -538.7517700195312,
+                        275.263671875,
+                        -335.7717590332031
+                    ],
                     "transform": [
                         0.6956391334533691,
                         -0.06619153916835785,
@@ -649,18 +651,17 @@
                         -0.5403995513916016,
                         -335.77178955078125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.9529567956924438,
                     "scale": [
                         1.1136085987091064,
                         1.1136085987091064,
                         1.1136085987091064
                     ],
-                    "height": 691.929443359375,
-                    "position": [
-                        -538.7517700195312,
-                        275.263671875,
-                        -335.7717590332031
+                    "rotation": 1.9529567956924438,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -670,20 +671,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 698.530029296875,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -178.6781768798828,
+                        271.1215515136719,
+                        -618.47509765625
+                    ],
                     "transform": [
                         -0.03800076246261597,
                         -0.8545600175857544,
@@ -698,18 +700,17 @@
                         -0.783434271812439,
                         -618.4750366210938
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.726137161254883,
                     "scale": [
                         0.8848415613174438,
                         0.8848415613174438,
                         0.8848415613174438
                     ],
-                    "height": 698.530029296875,
-                    "position": [
-                        -178.6781768798828,
-                        271.1215515136719,
-                        -618.47509765625
+                    "rotation": 2.726137161254883,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -719,20 +720,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 712.8307495117188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -300.3703918457031,
+                        360.6488342285156,
+                        536.5052490234375
+                    ],
                     "transform": [
                         -0.6755804419517517,
                         0.06370207667350769,
@@ -747,18 +749,17 @@
                         0.5631630420684814,
                         536.505126953125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.3701417446136475,
                     "scale": [
                         0.7482499480247498,
                         0.7482499480247498,
                         0.7482499480247498
                     ],
-                    "height": 712.8307495117188,
-                    "position": [
-                        -300.3703918457031,
-                        360.6488342285156,
-                        536.5052490234375
+                    "rotation": 3.3701417446136475,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -768,20 +769,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 692.5344848632812,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -287.2452392578125,
+                        369.0589294433594,
+                        -510.7735900878906
+                    ],
                     "transform": [
                         -0.271379679441452,
                         0.6397253274917603,
@@ -796,18 +798,17 @@
                         -0.5632591247558594,
                         -510.7735290527344
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 5.493679523468018,
                     "scale": [
                         0.7636972665786743,
                         0.7636972665786743,
                         0.7636972665786743
                     ],
-                    "height": 692.5344848632812,
-                    "position": [
-                        -287.2452392578125,
-                        369.0589294433594,
-                        -510.7735900878906
+                    "rotation": 5.493679523468018,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -817,20 +818,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 696.338623046875,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -670.5484619140625,
+                        -112.18498992919922,
+                        150.5541534423828
+                    ],
                     "transform": [
                         -0.15608401596546173,
                         0.15763938426971436,
@@ -845,18 +847,17 @@
                         0.17788439989089966,
                         150.55413818359375
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.439152717590332,
                     "scale": [
                         0.8227458000183105,
                         0.8227458000183105,
                         0.8227458000183105
                     ],
-                    "height": 696.338623046875,
-                    "position": [
-                        -670.5484619140625,
-                        -112.18498992919922,
-                        150.5541534423828
+                    "rotation": 3.439152717590332,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -866,20 +867,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 702.7328491210938,
+                    "op": "BO_Subtract",
+                    "position": [
+                        211.45877075195312,
+                        -146.81268310546875,
+                        -653.8843383789062
+                    ],
                     "transform": [
                         0.9842841029167175,
                         0.4531659781932831,
@@ -894,18 +896,17 @@
                         -1.0572720766067505,
                         -653.8844604492188
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.4622087478637695,
                     "scale": [
                         1.1362555027008057,
                         1.1362555027008057,
                         1.1362555027008057
                     ],
-                    "height": 702.7328491210938,
-                    "position": [
-                        211.45877075195312,
-                        -146.81268310546875,
-                        -653.8843383789062
+                    "rotation": 1.4622087478637695,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -915,20 +916,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 703.7777099609375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        632.77587890625,
+                        257.9102478027344,
+                        -168.46392822265625
+                    ],
                     "transform": [
                         -0.4743158519268036,
                         -0.08123182505369186,
@@ -943,18 +945,17 @@
                         -0.26316264271736145,
                         -168.46409606933594
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.2571871280670166,
                     "scale": [
                         1.0993914604187012,
                         1.0993914604187012,
                         1.0993914604187012
                     ],
-                    "height": 703.7777099609375,
-                    "position": [
-                        632.77587890625,
-                        257.9102478027344,
-                        -168.46392822265625
+                    "rotation": 1.2571871280670166,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -964,20 +965,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 696.544189453125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -411.80535888671875,
+                        -101.22975158691406,
+                        -552.5782470703125
+                    ],
                     "transform": [
                         0.00003984570503234863,
                         -0.6882531642913818,
@@ -992,18 +994,17 @@
                         -0.6769869923591614,
                         -552.5781860351562
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 5.253852844238281,
                     "scale": [
                         0.8533658981323242,
                         0.8533658981323242,
                         0.8533658981323242
                     ],
-                    "height": 696.544189453125,
-                    "position": [
-                        -411.80535888671875,
-                        -101.22975158691406,
-                        -552.5782470703125
+                    "rotation": 5.253852844238281,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1013,20 +1014,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.4746704101562,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -89.5101318359375,
+                        98.63983917236328,
+                        -693.8043212890625
+                    ],
                     "transform": [
                         -0.4040828347206116,
                         -0.5281422138214111,
@@ -1041,18 +1043,17 @@
                         -0.6583734750747681,
                         -693.8043823242188
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.688720464706421,
                     "scale": [
                         0.6703967452049255,
                         0.6703967452049255,
                         0.6703967452049255
                     ],
-                    "height": 706.4746704101562,
-                    "position": [
-                        -89.5101318359375,
-                        98.63983917236328,
-                        -693.8043212890625
+                    "rotation": 3.688720464706421,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1062,20 +1063,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 697.2835083007812,
+                    "op": "BO_Subtract",
+                    "position": [
+                        97.74364471435547,
+                        687.5011596679688,
+                        -63.18724822998047
+                    ],
                     "transform": [
                         -0.4351433217525482,
                         -0.8598611354827881,
@@ -1090,18 +1092,17 @@
                         -0.0882001519203186,
                         -63.18719482421875
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.8851733207702637,
                     "scale": [
                         0.9733065366744995,
                         0.9733065366744995,
                         0.9733065366744995
                     ],
-                    "height": 697.2835083007812,
-                    "position": [
-                        97.74364471435547,
-                        687.5011596679688,
-                        -63.18724822998047
+                    "rotation": 1.8851733207702637,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1111,20 +1112,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 699.6826171875,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -695.998779296875,
+                        12.737349510192871,
+                        -70.56366729736328
+                    ],
                     "transform": [
                         0.013533170334994793,
                         0.11542995274066925,
@@ -1139,18 +1141,17 @@
                         -0.11437220871448517,
                         -70.56365203857422
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.489695429801941,
                     "scale": [
                         1.1340718269348145,
                         1.1340718269348145,
                         1.1340718269348145
                     ],
-                    "height": 699.6826171875,
-                    "position": [
-                        -695.998779296875,
-                        12.737349510192871,
-                        -70.56366729736328
+                    "rotation": 1.489695429801941,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1160,20 +1161,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 694.8073120117188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        443.2054443359375,
+                        157.6886749267578,
+                        -511.3320007324219
+                    ],
                     "transform": [
                         0.576880931854248,
                         0.11975918710231781,
@@ -1188,18 +1190,17 @@
                         -0.5630162358283997,
                         -511.3320007324219
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.7290520668029785,
                     "scale": [
                         0.7650368213653564,
                         0.7650368213653564,
                         0.7650368213653564
                     ],
-                    "height": 694.8073120117188,
-                    "position": [
-                        443.2054443359375,
-                        157.6886749267578,
-                        -511.3320007324219
+                    "rotation": 3.7290520668029785,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1209,20 +1210,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 702.1563110351562,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -421.1402893066406,
+                        -543.8461303710938,
+                        -141.05235290527344
+                    ],
                     "transform": [
                         0.30922287702560425,
                         -0.8049963712692261,
@@ -1237,18 +1239,17 @@
                         -0.21649526059627533,
                         -141.05238342285156
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 0.39080408215522766,
                     "scale": [
                         1.077709674835205,
                         1.077709674835205,
                         1.077709674835205
                     ],
-                    "height": 702.1563110351562,
-                    "position": [
-                        -421.1402893066406,
-                        -543.8461303710938,
-                        -141.05235290527344
+                    "rotation": 0.39080408215522766,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1258,20 +1259,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 715.5361328125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        711.7687377929688,
+                        -13.026055335998535,
+                        -72.1624984741211
+                    ],
                     "transform": [
                         -0.12284038960933685,
                         0.05174676328897476,
@@ -1286,18 +1288,17 @@
                         -0.13117478787899017,
                         -72.16232299804688
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 0.20088033378124237,
                     "scale": [
                         1.3006830215454102,
                         1.3006830215454102,
                         1.3006830215454102
                     ],
-                    "height": 715.5361328125,
-                    "position": [
-                        711.7687377929688,
-                        -13.026055335998535,
-                        -72.1624984741211
+                    "rotation": 0.20088033378124237,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1307,20 +1308,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 700.2864990234375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -12.420340538024902,
+                        206.33726501464844,
+                        669.0828247070312
+                    ],
                     "transform": [
                         -0.924465537071228,
                         -0.006466401740908623,
@@ -1335,18 +1337,17 @@
                         0.8834334015846252,
                         669.0828247070312
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.137270927429199,
                     "scale": [
                         0.9246336221694946,
                         0.9246336221694946,
                         0.9246336221694946
                     ],
-                    "height": 700.2864990234375,
-                    "position": [
-                        -12.420340538024902,
-                        206.33726501464844,
-                        669.0828247070312
+                    "rotation": 3.137270927429199,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1356,20 +1357,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 704.9213256835938,
+                    "op": "BO_Subtract",
+                    "position": [
+                        412.9248046875,
+                        -364.3244934082031,
+                        -440.085205078125
+                    ],
                     "transform": [
                         0.856200098991394,
                         0.04175577312707901,
@@ -1384,18 +1386,17 @@
                         -0.6603100299835205,
                         -440.0850830078125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.4149137735366821,
                     "scale": [
                         1.0576741695404053,
                         1.0576741695404053,
                         1.0576741695404053
                     ],
-                    "height": 704.9213256835938,
-                    "position": [
-                        412.9248046875,
-                        -364.3244934082031,
-                        -440.085205078125
+                    "rotation": 1.4149137735366821,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1405,20 +1406,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 709.197021484375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        631.0087280273438,
+                        -207.02679443359375,
+                        -248.85406494140625
+                    ],
                     "transform": [
                         -0.41725194454193115,
                         -0.18448646366596222,
@@ -1433,18 +1435,17 @@
                         -0.3507196009159088,
                         -248.85406494140625
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.798037528991699,
                     "scale": [
                         0.9994986057281494,
                         0.9994986057281494,
                         0.9994986057281494
                     ],
-                    "height": 709.197021484375,
-                    "position": [
-                        631.0087280273438,
-                        -207.02679443359375,
-                        -248.85406494140625
+                    "rotation": 4.798037528991699,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1454,20 +1455,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.05224609375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        585.2809448242188,
+                        34.10968017578125,
+                        -393.43682861328125
+                    ],
                     "transform": [
                         -0.26874759793281555,
                         0.5918204188346863,
@@ -1482,18 +1484,17 @@
                         -0.6475529670715332,
                         -393.4368591308594
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.306956171989441,
                     "scale": [
                         1.1620829105377197,
                         1.1620829105377197,
                         1.1620829105377197
                     ],
-                    "height": 706.05224609375,
-                    "position": [
-                        585.2809448242188,
-                        34.10968017578125,
-                        -393.43682861328125
+                    "rotation": 1.306956171989441,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1503,20 +1504,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 704.6314086914062,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -540.9201049804688,
+                        434.92633056640625,
+                        121.44950866699219
+                    ],
                     "transform": [
                         -0.718563437461853,
                         0.16787675023078918,
@@ -1531,18 +1533,17 @@
                         0.1984635293483734,
                         121.44947052001953
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.05352783203125,
                     "scale": [
                         1.1514554023742676,
                         1.1514554023742676,
                         1.1514554023742676
                     ],
-                    "height": 704.6314086914062,
-                    "position": [
-                        -540.9201049804688,
-                        434.92633056640625,
-                        121.44950866699219
+                    "rotation": 4.05352783203125,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1552,20 +1553,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.3926391601562,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -351.7793273925781,
+                        564.4361572265625,
+                        238.02032470703125
+                    ],
                     "transform": [
                         -0.30313655734062195,
                         0.8914550542831421,
@@ -1580,18 +1582,17 @@
                         0.3658628463745117,
                         238.0203094482422
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.734947204589844,
                     "scale": [
                         1.085801601409912,
                         1.085801601409912,
                         1.085801601409912
                     ],
-                    "height": 706.3926391601562,
-                    "position": [
-                        -351.7793273925781,
-                        564.4361572265625,
-                        238.02032470703125
+                    "rotation": 4.734947204589844,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1601,20 +1602,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 700.8649291992188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        544.9854736328125,
+                        -437.2064208984375,
+                        -55.25322723388672
+                    ],
                     "transform": [
                         -0.18688295781612396,
                         -0.40085646510124207,
@@ -1629,18 +1631,17 @@
                         -0.05545315146446228,
                         -55.25311279296875
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.999697208404541,
                     "scale": [
                         0.7034023404121399,
                         0.7034023404121399,
                         0.7034023404121399
                     ],
-                    "height": 700.8649291992188,
-                    "position": [
-                        544.9854736328125,
-                        -437.2064208984375,
-                        -55.25322723388672
+                    "rotation": 2.999697208404541,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1650,20 +1651,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 694.8506469726562,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -598.1798706054688,
+                        -80.59662628173828,
+                        -344.2419738769531
+                    ],
                     "transform": [
                         0.45151543617248535,
                         -0.031415268778800964,
@@ -1678,18 +1680,17 @@
                         -0.4406897723674774,
                         -344.2420654296875
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.610530138015747,
                     "scale": [
                         0.889529824256897,
                         0.889529824256897,
                         0.889529824256897
                     ],
-                    "height": 694.8506469726562,
-                    "position": [
-                        -598.1798706054688,
-                        -80.59662628173828,
-                        -344.2419738769531
+                    "rotation": 3.610530138015747,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1699,20 +1700,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 693.77001953125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        505.3244934082031,
+                        469.896240234375,
+                        71.8431396484375
+                    ],
                     "transform": [
                         -0.472970187664032,
                         -0.35551607608795166,
@@ -1727,18 +1729,17 @@
                         0.08942464739084244,
                         71.8431625366211
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.7862203121185303,
                     "scale": [
                         0.8635497093200684,
                         0.8635497093200684,
                         0.8635497093200684
                     ],
-                    "height": 693.77001953125,
-                    "position": [
-                        505.3244934082031,
-                        469.896240234375,
-                        71.8431396484375
+                    "rotation": 1.7862203121185303,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1748,20 +1749,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 700.7368774414062,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -229.15072631835938,
+                        -581.047607421875,
+                        -317.6565246582031
+                    ],
                     "transform": [
                         0.15596112608909607,
                         0.6041874289512634,
@@ -1776,18 +1778,17 @@
                         -0.2993238866329193,
                         -317.6566467285156
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.41245174407959,
                     "scale": [
                         0.6602956056594849,
                         0.6602956056594849,
                         0.6602956056594849
                     ],
-                    "height": 700.7368774414062,
-                    "position": [
-                        -229.15072631835938,
-                        -581.047607421875,
-                        -317.6565246582031
+                    "rotation": 4.41245174407959,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1797,20 +1798,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 701.9216918945312,
+                    "op": "BO_Subtract",
+                    "position": [
+                        142.5391082763672,
+                        -535.3984985351562,
+                        430.9583740234375
+                    ],
                     "transform": [
                         0.4134330153465271,
                         -0.9458910226821899,
@@ -1825,18 +1827,17 @@
                         0.6472852230072021,
                         430.9583740234375
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.256906270980835,
                     "scale": [
                         1.0542631149291992,
                         1.0542631149291992,
                         1.0542631149291992
                     ],
-                    "height": 701.9216918945312,
-                    "position": [
-                        142.5391082763672,
-                        -535.3984985351562,
-                        430.9583740234375
+                    "rotation": 1.256906270980835,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1846,20 +1847,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 698.1221923828125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -188.84840393066406,
+                        -612.372802734375,
+                        276.96649169921875
+                    ],
                     "transform": [
                         -0.2962043881416321,
                         -0.6269644498825073,
@@ -1874,18 +1876,17 @@
                         0.2857516407966614,
                         276.9664001464844
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.8347631692886353,
                     "scale": [
                         0.7202662825584412,
                         0.7202662825584412,
                         0.7202662825584412
                     ],
-                    "height": 698.1221923828125,
-                    "position": [
-                        -188.84840393066406,
-                        -612.372802734375,
-                        276.96649169921875
+                    "rotation": 1.8347631692886353,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1895,20 +1896,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 696.7008666992188,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -393.83837890625,
+                        -57.9691047668457,
+                        571.7718505859375
+                    ],
                     "transform": [
                         -0.9245740175247192,
                         0.5652573108673096,
@@ -1923,18 +1925,17 @@
                         1.0781487226486206,
                         571.7717895507812
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.659008026123047,
                     "scale": [
                         1.3137184381484985,
                         1.3137184381484985,
                         1.3137184381484985
                     ],
-                    "height": 696.7008666992188,
-                    "position": [
-                        -393.83837890625,
-                        -57.9691047668457,
-                        571.7718505859375
+                    "rotation": 3.659008026123047,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1944,20 +1945,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 707.3810424804688,
+                    "op": "BO_Subtract",
+                    "position": [
+                        166.36959838867188,
+                        -13.9154634475708,
+                        687.3975219726562
+                    ],
                     "transform": [
                         -0.23808251321315765,
                         0.6478430032730103,
@@ -1972,18 +1974,17 @@
                         0.6900642514228821,
                         687.3975830078125
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.362623691558838,
                     "scale": [
                         0.710125207901001,
                         0.710125207901001,
                         0.710125207901001
                     ],
-                    "height": 707.3810424804688,
-                    "position": [
-                        166.36959838867188,
-                        -13.9154634475708,
-                        687.3975219726562
+                    "rotation": 4.362623691558838,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -1993,20 +1994,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 702.1600952148438,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -179.2325897216797,
+                        -673.2254638671875,
+                        -87.58975219726562
+                    ],
                     "transform": [
                         0.5859808921813965,
                         -0.7480238676071167,
@@ -2021,18 +2023,17 @@
                         -0.12259441614151001,
                         -87.58971405029297
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 0.612884521484375,
                     "scale": [
                         0.9827741384506226,
                         0.9827741384506226,
                         0.9827741384506226
                     ],
-                    "height": 702.1600952148438,
-                    "position": [
-                        -179.2325897216797,
-                        -673.2254638671875,
-                        -87.58975219726562
+                    "rotation": 0.612884521484375,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2042,20 +2043,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 690.962890625,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -580.833251953125,
+                        -369.587158203125,
+                        58.887630462646484
+                    ],
                     "transform": [
                         0.05215466022491455,
                         0.591055154800415,
@@ -2070,18 +2072,17 @@
                         0.09336314350366592,
                         58.887630462646484
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.9294378757476807,
                     "scale": [
                         1.0954841375350952,
                         1.0954841375350952,
                         1.0954841375350952
                     ],
-                    "height": 690.962890625,
-                    "position": [
-                        -580.833251953125,
-                        -369.587158203125,
-                        58.887630462646484
+                    "rotation": 3.9294378757476807,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2091,20 +2092,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 692.0239868164062,
+                    "op": "BO_Subtract",
+                    "position": [
+                        61.53821563720703,
+                        606.9779052734375,
+                        -326.63140869140625
+                    ],
                     "transform": [
                         -0.9759000539779663,
                         -0.3488044738769531,
@@ -2119,18 +2121,17 @@
                         -0.49110230803489685,
                         -326.6313781738281
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.6494686603546143,
                     "scale": [
                         1.0404837131500244,
                         1.0404837131500244,
                         1.0404837131500244
                     ],
-                    "height": 692.0239868164062,
-                    "position": [
-                        61.53821563720703,
-                        606.9779052734375,
-                        -326.63140869140625
+                    "rotation": 2.6494686603546143,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2140,20 +2141,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 704.1244506835938,
+                    "op": "BO_Subtract",
+                    "position": [
+                        561.1420288085938,
+                        -417.7872619628906,
+                        79.77884674072266
+                    ],
                     "transform": [
                         -0.4111243486404419,
                         0.14361201226711273,
@@ -2168,18 +2170,17 @@
                         0.08168259263038635,
                         79.77891540527344
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 4.257441520690918,
                     "scale": [
                         0.7209262251853943,
                         0.7209262251853943,
                         0.7209262251853943
                     ],
-                    "height": 704.1244506835938,
-                    "position": [
-                        561.1420288085938,
-                        -417.7872619628906,
-                        79.77884674072266
+                    "rotation": 4.257441520690918,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2189,20 +2190,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 702.6034545898438,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -86.29154968261719,
+                        -230.97857666015625,
+                        -657.9165649414062
+                    ],
                     "transform": [
                         -0.6474103331565857,
                         0.22162199020385742,
@@ -2217,18 +2219,17 @@
                         -0.6456584334373474,
                         -657.9166870117188
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 2.7773516178131104,
                     "scale": [
                         0.6895126700401306,
                         0.6895126700401306,
                         0.6895126700401306
                     ],
-                    "height": 702.6034545898438,
-                    "position": [
-                        -86.29154968261719,
-                        -230.97857666015625,
-                        -657.9165649414062
+                    "rotation": 2.7773516178131104,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2238,20 +2239,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 695.0545043945312,
+                    "op": "BO_Subtract",
+                    "position": [
+                        455.52069091796875,
+                        426.4237365722656,
+                        -306.2096252441406
+                    ],
                     "transform": [
                         -0.1432281732559204,
                         0.48557960987091064,
@@ -2266,18 +2268,17 @@
                         -0.2952933609485626,
                         -306.20947265625
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 3.167316198348999,
                     "scale": [
                         0.670276403427124,
                         0.670276403427124,
                         0.670276403427124
                     ],
-                    "height": 695.0545043945312,
-                    "position": [
-                        455.52069091796875,
-                        426.4237365722656,
-                        -306.2096252441406
+                    "rotation": 3.167316198348999,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2287,20 +2288,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 696.0716552734375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        533.1223754882812,
+                        -74.23374938964844,
+                        441.3453063964844
+                    ],
                     "transform": [
                         0.4636228084564209,
                         -0.727563738822937,
@@ -2315,18 +2317,17 @@
                         0.8507748246192932,
                         441.3453063964844
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.081276774406433,
                     "scale": [
                         1.3418070077896118,
                         1.3418070077896118,
                         1.3418070077896118
                     ],
-                    "height": 696.0716552734375,
-                    "position": [
-                        533.1223754882812,
-                        -74.23374938964844,
-                        441.3453063964844
+                    "rotation": 1.081276774406433,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2336,20 +2337,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        2,
-                        2,
-                        2,
-                        2
-                    ],
-                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/moon/brushes/moon_crater_02.json",
+                    "height": 706.0430908203125,
+                    "op": "BO_Subtract",
+                    "position": [
+                        -124.72056579589844,
+                        680.8065185546875,
+                        139.44195556640625
+                    ],
                     "transform": [
                         -0.16562309861183167,
                         -0.8598593473434448,
@@ -2364,18 +2366,17 @@
                         0.1757049858570099,
                         139.4419403076172
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 1.9061037302017212,
                     "scale": [
                         0.8896554708480835,
                         0.8896554708480835,
                         0.8896554708480835
                     ],
-                    "height": 706.0430908203125,
-                    "position": [
-                        -124.72056579589844,
-                        680.8065185546875,
-                        139.44195556640625
+                    "rotation": 1.9061037302017212,
+                    "weight": [
+                        2,
+                        2,
+                        2,
+                        2
                     ],
                     "weightHard": true,
                     "weightScale": [
@@ -2385,20 +2386,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": true,
+                    "flooded": false,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "weight": [
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "spec": "/pa/terrain/ice/brushes/ice_crack_02.json",
                     "proj": "BP_Bend",
+                    "spec": "/pa/terrain/ice/brushes/ice_crack_02.json",
+                    "height": 706.3597412109375,
+                    "op": "BO_Subtract",
+                    "position": [
+                        574.618408203125,
+                        -292.5355224609375,
+                        -288.41064453125
+                    ],
                     "transform": [
                         -0.11843228340148926,
                         0.5693886280059814,
@@ -2413,18 +2415,17 @@
                         -0.40830540657043457,
                         -288.4104919433594
                     ],
-                    "op": "BO_Subtract",
-                    "rotation": 0,
                     "scale": [
                         1,
                         1,
                         1
                     ],
-                    "height": 706.3597412109375,
-                    "position": [
-                        574.618408203125,
-                        -292.5355224609375,
-                        -288.41064453125
+                    "rotation": 0,
+                    "weight": [
+                        0,
+                        0,
+                        0,
+                        0
                     ],
                     "weightHard": false,
                     "weightScale": [
@@ -2434,8 +2435,8 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "flooded": false,
                     "pathable": false,
+                    "flooded": false,
                     "mergeable": false,
                     "no_features": true
                 }
@@ -3178,39 +3179,38 @@
                 "rules": [
                     {
                         "min": 2,
-                        "max": 8
+                        "max": 10
                     },
                     {
                         "min": 5,
-                        "max": 8
+                        "max": 10
                     },
                     {
                         "min": 2,
-                        "max": 8
+                        "max": 10
                     },
                     {
                         "min": 5,
-                        "max": 8
-                    },
-                    {
-                        "min": 5,
-                        "max": 8
-                    },
-                    {
-                        "min": 5,
-                        "max": 8
+                        "max": 10
                     },
                     {
                         "min": 2,
-                        "max": 8
+                        "max": 10
                     },
                     {
                         "min": 5,
-                        "max": 8
+                        "max": 10
+                    },
+                    {
+                        "min": 2,
+                        "max": 10
+                    },
+                    {
+                        "min": 5,
+                        "max": 10
                     }
                 ]
             }
         }
-    ],
-    "creator": "SonicBlue22"
+    ]
 }
