@@ -1,9 +1,9 @@
 {
     "name": "Quator",
-    "players": [
-        2,
-        8
-    ],
+    "description": "Two teams spawn on the poles where nearly half the metal on this planet is along the equator.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 8 ],
     "planets": [
         {
             "name": "Eq",

@@ -1,9 +1,9 @@
 {
     "name": "Kermall",
-	"players": [
-        2,
-        4
-    ],
+    "description": "On the main planet it's a fight for the center. Offworld it's a fight for halleys.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 4 ],
     "planets": [
         {
             "name": "Cerbin",

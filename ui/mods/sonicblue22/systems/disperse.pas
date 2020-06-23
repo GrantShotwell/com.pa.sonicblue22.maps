@@ -1,9 +1,9 @@
 {
     "name": "Disperse",
-	"players": [
-        2,
-        8
-    ],
+    "description": "Not that the planet will collide on its own, it's just crowded.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 8 ],
     "planets": [
         {
             "name": "Stribbs",

@@ -1,9 +1,9 @@
 {
     "name": "Sula",
-	"players": [
-        2,
-        6
-    ],
+    "description": "With four or less players, this map has no gimmick. With six players it is reccommended to have two teams of three, where one team will be the invaders of the main planet.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 6 ],
     "planets": [
         {
             "name": "Muna",

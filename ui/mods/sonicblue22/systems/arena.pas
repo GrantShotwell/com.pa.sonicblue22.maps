@@ -1,9 +1,9 @@
 {
     "name": "Arena",
-    "players": [
-        2,
-        8
-    ],
+    "description": "Spawns are arranged in a circle on one face of the planet with four large metal deposits outside of the circle to fight for.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 8 ],
     "planets": [
         {
             "name": "Setas",

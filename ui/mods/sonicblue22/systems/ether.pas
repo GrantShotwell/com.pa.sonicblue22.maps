@@ -1,9 +1,9 @@
 {
     "name": "Ether",
-	"players": [
-		2,
-		10
-	],
+    "description": "Each side of this planet has four spawns, with two more spawns placed inbetween these sides.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 10 ],
     "planets": [
         {
             "name": "Leviathan",

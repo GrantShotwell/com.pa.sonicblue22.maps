@@ -1,5 +1,8 @@
 {
     "name": "Giga",
+    "description": "Just a large moon with a lot of metal.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
     "planets": [
         {
             "name": "Voor",

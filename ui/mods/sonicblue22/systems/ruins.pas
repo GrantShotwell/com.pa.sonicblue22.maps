@@ -1,9 +1,9 @@
 {
     "name": "Ruins",
-	"players": [
-		2,
-		8
-	],
+    "description": "Two planets, each with their own weapon of mass-destruction.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 8 ],
     "planets": [
         {
             "name": "Smolder",
@@ -3693,7 +3693,7 @@
             }
         },
         {
-            "name": "A-F4-D-70 (non-functional)",
+            "name": "A-F4-D-70",
             "mass": 35000,
             "position_x": 28900.01171875,
             "position_y": -34199.9921875,

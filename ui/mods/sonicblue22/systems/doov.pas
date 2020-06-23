@@ -1,9 +1,9 @@
 {
     "name": "Doov",
-	"players": [
-        2,
-        2
-    ],
+    "description": "In one direction, a large metal deposit. In the other direction, a metal-less ocean shared by both players.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 2 ],
     "planets": [
         {
             "name": "Arcun",

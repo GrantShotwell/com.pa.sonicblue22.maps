@@ -1,9 +1,9 @@
 {
     "name": "Mega Asteroids",
-    "players": [
-        2,
-        20
-    ],
+    "description": "A halley-fest with fair spawns.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 20 ],
     "planets": [
         {
             "name": "Asteroid A",

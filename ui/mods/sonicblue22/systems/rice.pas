@@ -1,9 +1,9 @@
 {
     "name": "Rice",
-    "players": [
-        2,
-        14
-    ],
+    "description": "This system is best with more players. In a 5v5, you will end up in a situation where a player is alone and needs to defend while their team uses them as a landing site.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 14 ],
     "planets": [
         {
             "name": "Millard",

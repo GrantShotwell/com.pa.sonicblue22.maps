@@ -1,9 +1,9 @@
 {
     "name": "Daudet",
-	"players": [
-        2,
-        6
-    ],
+    "description": "Metal is split between the two sides of this planet, as well as the spawns. Difficult terrain splits the two sides, creating choke points for any land armies trying to cross.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 6 ],
     "planets": [
         {
             "name": "Daudet",

@@ -1,9 +1,9 @@
 {
     "name": "Sector 17",
-    "players": [
-        2,
-        10
-    ],
+    "description": "A chaotic warzone across the entire planet.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 10 ],
     "planets": [
         {
             "name": "L-2",

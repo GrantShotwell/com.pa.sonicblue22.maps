@@ -1,9 +1,9 @@
 {
     "name": "THC",
-	"players": [
-        2,
-        6
-    ],
+    "description": "Taken out of the 'Rice' system.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 6 ],
     "planets": [
         {
             "name": "THC",

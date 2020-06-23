@@ -1,9 +1,9 @@
 {
     "name": "Cryos",
-    "players": [
-        2,
-        4
-    ],
+    "description": "Players start around a single ocean that covers a third of the planet. While most metal is on land, gaining naval superiority is a huge advantage.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 4 ],
     "planets": [
         {
             "name": "Kryss",

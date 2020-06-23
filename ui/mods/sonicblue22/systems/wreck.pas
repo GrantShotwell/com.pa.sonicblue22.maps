@@ -1,9 +1,9 @@
 {
     "name": "Wreck",
-	"players": [
-        6,
-        10
-    ],
+    "description": "With two unequal (but balanced) spawn planets, it is a race to get weapons of mass-destruction.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 6, 10 ],
     "planets": [
         {
             "name": "Bismark",

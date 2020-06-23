@@ -1,9 +1,9 @@
 {
     "name": "Rings",
-	"players": [
-        2,
-        8
-    ],
+    "description": "Two equal planets orbit a gas giant. Expect a fight over your spawn planet before the orbital fight begins.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 8 ],
     "planets": [
         {
             "name": "sp33dr4c3r's Rock",

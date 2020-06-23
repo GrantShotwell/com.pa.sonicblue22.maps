@@ -1,9 +1,9 @@
 {
     "name": "Blitz",
-    "players": [
-        2,
-        2
-    ],
+    "description": "A tiny 1v1 map with sparse metal. Watch out for artillery!",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 2, 2 ],
     "planets": [
         {
             "name": "Hermes",
@@ -12,7 +12,7 @@
             "position_y": -17300,
             "velocity_x": 120.00594329833984,
             "velocity_y": 92.25890350341797,
-            "required_thrust_to_move": 3,
+            "required_thrust_to_move": 0,
             "starting_planet": true,
             "planet": {
                 "seed": 592741632,

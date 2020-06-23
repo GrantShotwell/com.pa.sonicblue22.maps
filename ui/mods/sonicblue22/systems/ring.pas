@@ -1,5 +1,8 @@
 {
     "name": "Ring",
+    "description": "A simple commander boxing map.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
     "planets": [
         {
             "name": "Boxing",

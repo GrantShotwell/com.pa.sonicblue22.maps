@@ -1,9 +1,9 @@
 {
     "name": "Destroyer",
-	"players": [
-		6,
-		18
-	],
+    "description": "This system's only gimmick is its massive size.",
+    "creator": "SonicBlue22",
+    "version": "1.0",
+    "players": [ 6, 18 ],
     "planets": [
         {
             "name": "Kirk",
