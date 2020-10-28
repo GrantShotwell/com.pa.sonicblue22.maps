@@ -1,5 +1,6 @@
 cShareSystems.load_pas("SonicBlue22", [
 "coui://ui/mods/SonicBlue22/systems/arena.pas",
+"coui://ui/mods/SonicBlue22/systems/coalition_command_center.pas",
 "coui://ui/mods/SonicBlue22/systems/cryos.pas",
 "coui://ui/mods/SonicBlue22/systems/daudet.pas",
 "coui://ui/mods/SonicBlue22/systems/destroyer.pas",
@@ -10,6 +11,7 @@ cShareSystems.load_pas("SonicBlue22", [
 "coui://ui/mods/SonicBlue22/systems/kermall.pas",
 "coui://ui/mods/SonicBlue22/systems/mega_asteroids.pas",
 "coui://ui/mods/SonicBlue22/systems/panorama.pas",
+"coui://ui/mods/SonicBlue22/systems/pathius.pas",
 "coui://ui/mods/SonicBlue22/systems/quator.pas",
 "coui://ui/mods/SonicBlue22/systems/rice.pas",
 "coui://ui/mods/SonicBlue22/systems/ring.pas",
