@@ -6,6 +6,7 @@ cShareSystems.load_pas("SonicBlue22", [
 "coui://ui/mods/SonicBlue22/systems/destroyer.pas",
 "coui://ui/mods/SonicBlue22/systems/disperse.pas",
 "coui://ui/mods/SonicBlue22/systems/doov.pas",
+"coui://ui/mods/SonicBlue22/systems/iguazu.pas",
 "coui://ui/mods/SonicBlue22/systems/kermall.pas",
 "coui://ui/mods/SonicBlue22/systems/mega_asteroids.pas",
 "coui://ui/mods/SonicBlue22/systems/panorama.pas",
