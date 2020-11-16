@@ -2,7 +2,7 @@
     "name": "Arena",
     "description": "Spawns are arranged in a circle on one face of the planet, with the other face unpathable and metal-less.",
     "creator": "SonicBlue22",
-    "version": "2.0",
+    "version": "2.1",
     "players": [ 2, 8 ],
     "planets": [
         {
@@ -753,7 +753,7 @@
                         "max": 32
                     },
                     {
-                        "min": 5,
+                        "min": 7,
                         "max": 32
                     },
                     {
@@ -769,7 +769,7 @@
                         "max": 32
                     },
                     {
-                        "min": 5,
+                        "min": 7,
                         "max": 32
                     },
                     {
