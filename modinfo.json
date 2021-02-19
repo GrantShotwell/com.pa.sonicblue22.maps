@@ -1,8 +1,8 @@
 {
     "context": "client",
     "identifier": "com.pa.sonicblue22.maps",
-    "display_name": "SonicBlue22's Map Pack",
-    "description": "A variety of maps made for asymetrical balance. All maps are designed to be as fair as possible for all team setups.",
+    "display_name": "SonicBlue22's Old Map Pack",
+    "description": "DEPRECEATED! I am working on a new map pack to replace this one. A variety of maps made for asymetrical balance. All maps are designed to be as fair as possible for all team setups.",
     "author": "SonicBlue22",
     "version": "3.2.1",
     "build": "115013",
